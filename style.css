@@ -1,0 +1,29 @@
+.option1{
+    margin-top: 15px;
+    width: 530px;
+    height: 59px;
+    border: 1px solid black;
+    background-color: white;
+}
+.option2,.option3, .option4{
+    margin-top: 15px;
+    width: 530px;
+    height: 59px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    background-color: white;
+}
+body{
+    background-color: #2C3A47;
+}
+h1{
+    color: white;
+}
+h1::after{
+    content: "";
+    width: 90px;
+    height: 3px;
+    display: block;
+    margin: 10px auto;
+    background-color: white;
+}
